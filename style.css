@@ -1,0 +1,104 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body > button
+{
+    background-color: rgb(69, 113, 233);
+    color: white;
+    padding: 10px;
+    height: 50px;
+    width: 180px;
+    margin-left: 83%;
+    margin-top: 40px;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+}
+.container
+{
+    height: 550px;
+    width: 85%;
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+   
+}
+.card1
+{
+    height: 90%;
+    width: 50%;
+    padding: 20px;
+}
+
+.card1 h1
+{
+    font-size: 80px;
+    margin-top: 0;
+    margin-bottom: 25px;
+    
+}
+
+.card1 p
+{
+    font-size: 22px;
+    width: 90%;
+    margin-bottom: 45px;
+}
+.one 
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    gap: 15px;
+}
+
+.one input 
+{
+    height: 60px;
+    width: 340px;
+    color: rgb(90, 85, 85);
+    border: 1px solid rgb(139, 134, 134);
+    border-radius: 12px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.one button 
+{
+    background-color: rgb(69, 113, 233);
+    color: white;
+    padding: 10px;
+    height: 60px;
+    width: 180px;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    
+}
+.two
+{
+    margin-top: 30px;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    /* justify-content: center; */
+
+}
+.two img 
+{
+     height: 80px;
+     width: 100px;
+}
+.card2
+{
+    height: 100%;
+    width: 50%;
+    border-radius: 10px;
+}
